@@ -69,6 +69,11 @@ function getContents(pgIndex) {
 }
 
 var pageName = window.location.pathname.split('/').pop();
+if (pageName == '') {
+	pageName = 'index.html'
+} else if (!pageName.includes('.')) {
+	pageName += '.html'
+}
 var pageIndex = pageList.findIndex(el => el[1] == pageName);
 
 var pageNum = 'temp';
