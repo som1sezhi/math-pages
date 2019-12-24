@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="../normal.css">
+	<!-- https://tex.stackexchange.com/questions/23804/how-to-incorporate-tex-into-a-website-->
+	<script type="text/x-mathjax-config">
+		MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+	</script>
+	<script type="text/javascript"
+	  src="http://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+	</script>
+</head>
+<body>
+<div class="stuff">
+<div class="nav">	
+	<p class="breadcrumbs">
+		<a href="../index.html">math</a> > 
+		<a href="index.html">transfinite numbers</a> > 
+	</p>
+		<p class="prev-next">
+		<span class="prev"><a href="">< prev</a></span>
+		<span class="next"><a href="">next ></a></span>
+	</p>
+</div>
+<div class="title-stuff">
+	<h1>
+		<span id="page-num"></span><br />
+	</h1>
+	<p class="subtitle">welcome to the (in)finite</p>
+</div>
+
+<p>The idea that "some infinities are bigger than other infinities" sounded pretty wild the first time I heard of it. Infinity is a concept, not a number, right? So how can you compare them like numbers and proclaim one infinity as bigger than the other?</p>
+
+<p>Well, from my current understanding, infinity <i>is</i> just a concept, but that doesn't stop <i>transfinite numbers</i> from existing:</p>
+
+<div class="box def">
+	<p> <span class="def-num">Definition 1-1: </span>
+	A <i>transfinite number</i> is a number greater than any finite number.</p>
+</div>
+
+<p>In this To see how transfinite numbers can come about, let's consider this set $A$:</p>
+
+<div class="img">
+	<img src="imgs/1-1_a.png" style="width: 50%;" />
+	<p class="caption">beautiful</p>
+</div>
+
+<p>This lovely set $A$ here consists of four apples. <i>Four</i> is the number of elements in this set: its <i>cardinality</i>.</p>
+
+<div class="box def">
+	<p><span class="def-num">Definition 1-2: </span>
+	For a set $S$, its <i>cardinality</i> $|S|$ is the number of elements in $S$.</p>
+</div>
+
+<p>In the case of our previous set of apples, $|A|=4$.</p>
+
+<div class="box def">
+	<p><span class="def-num">Definition 1-3: </span>
+	<i>Cardinal numbers</i> (<i>cardinals</i> for short) are numbers that can be used to measure the cardinality of a set.</p>
+</div>
+
+<p>For example, any natural number (0 shall be considered a natural number, as is standard in set theory) can be used as a cardinal number; we can imagine a set quite easily having 0, 2, or a billion elements.</p>
+
+<p>But what's the cardinality of $\mathbb N$, the set of all natural numbers?</p>
+<p>$$\mathbb N=\{0,1,2,3,4,\ldots\}$$</p>
+<p class="caption">"wow, that's a long 'un"</p>
+
+<p>$\mathbb N$ is an infinite set, so we can't use any of the natural numbers to describe its cardinality. But $\mathbb N$ <i>is</i> a set, so it has a cardinality. Some cardinal number greater than any natural number...</p>
+
+<div class="img">
+	<img src="imgs/1-1_aleph0.png" style="max-width:90%;" />
+</div>
+
+<p>$\aleph_0$ (aleph-zero, aleph-naught, or aleph-null) is the name we give to the cardinality of $\mathbb N$. Since $\aleph_0$ describes a cardinality, it is, in fact, a cardinal number, although it looks kinda funky compared to the numbers we're used to.</p>
+
+<p>We did it guys! We reached our first transfinite number: the first, smallest infinity. </p>
+
+<div class="nav">
+	<p class="prev-next">
+		<span class="prev"><a href="">< prev</a></span>
+		<span class="next"><a href="">next ></a></span>
+	</p>	
+	<p class="breadcrumbs">
+		<a href="../index.html">math</a> > 
+		<a href="index.html">transfinite numbers</a> > 
+	</p>
+</div>
+
+</div>
+<script src="populate_nav.js"></script>
+</body>
