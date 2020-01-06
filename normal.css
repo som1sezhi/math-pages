@@ -70,12 +70,16 @@ p, li {
 
 img {
 	display: block;
-	max-width: 70%;
+	max-width: 80%;
 	margin: 0 auto;
 }
 
+img.wide {
+	max-width: 100%;
+}
+
 .img {
-	max-width: 99%;
+	max-width: 100%;
 	margin: 30px auto 30px;
 }
 
@@ -114,6 +118,6 @@ a:active {
 	color: #9c7121;
 }
 
-.def-num, .lemma-num {
+.box-num {
 	font-weight: bold;
 }

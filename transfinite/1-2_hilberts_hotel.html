@@ -41,19 +41,46 @@
 	<p class="caption">this is you</p>
 </div>
 
-<p>Somehow, the hotel is fully booked tonight: all $\aleph_0$ rooms are occupied, with no vacancies anywhere. So when a desperate visitor arrives in your lobby looking for a room, you're a bit stumped.</p>
+<p>For reasons that we'll get into in the next section, we'll label the rooms with the natural numbers, so the first room is room 0, then room 1, room 2, etc. Somehow, the hotel is fully booked tonight: all $\aleph_0$ rooms are occupied, with no vacancies anywhere. So when a desperate visitor arrives in your lobby looking for a room, you're a bit stumped.</p>
 
 <div class="img">
 	<img src="imgs/1-2_1visitor.png" />
 </div>
 
-<p>Surely, "every room is booked" means that you can't fit any more guests inside? Maybe with a puny finite hotel, but Hilbert's Hotel is special. Luckily, you've heard that Hilbert's Hotel is special, so you decide to do some online research. Eventually, you stumble across a web page describing a hotel exactly like the one you're trying to manage right now. How convenient!</p>
+<p>Surely, "every room is booked" means that you can't fit any more guests inside? Maybe with a puny finite hotel, but Hilbert's Hotel is different. Luckily, you know that Hilbert's Hotel is different, so you decide to do some online research to see what the fuss is all about. Eventually, you stumble across a web page describing a hotel exactly like the one you're trying to manage right now. How convenient!</p>
 
-<p></p>
+<div class="img">
+	<img src="imgs/1-2_convenience.png" />
+</div>
 
-<div class="box def">
-	<p> <span class="def-num">Definition temp: </span>
-	this page is a wip</p>
+<p>The web page says that even though all the rooms are filled, additional guests can still be accommodated! Just tell all the current occupants to move one room over, so the guests in room 0 move to room 1, the guests in room 1 move to room 2, the guests in room 2 move to room 3, and so on. After this infinite shuffle, room 0 will be left vacant for the new visitor to come in.</p>
+
+<div class="img">
+	<img src="imgs/1-2_1visitorsol.png" />
+</div>
+
+<p>Every room has a next room, so there'll always be a room for each occupant to move into, making space for one more without adding rooms or removing occupants. $\aleph_0$ plus one is $\aleph_0$. Infinite sets are weird.</p>
+
+<p>This can be generalized to even more visitors: if a thousand people come to a full hotel, each seeking their own rooms, we can make space for them all by telling everyone to move 1000 rooms over. Room 0 to room 1000, room 1 to room 1001, room 2 to room 1002, and so on. This process leaves rooms 0 through 999 for the thousand visitors to move into.</p>
+
+<p>Of course, directing the movements of an infinite number of people would probably take a very long time. An infinite amount of time, perhaps. So it probably shouldn't be too surprising when you arrive back at the front desk, exhausted from having to manage everybody moving rooms, only to find that a countably infinite number of people have accumulated in your lobby.</p>
+
+<div class="img">
+	<img src="imgs/1-2_infvisitors.png" />
+</div>
+
+<p>Troubled, you look back to the web page for help. Luckily, the web page states that even a countably infinite number of visitors can be accommodated in a full hotel! Just get every current occupant to move to the room labelled with the number twice that of their current room. Room 0 stays at room 0, room 1 moves to room 2, room 2 moves to room 4, room 3 moves to room 6, and so on. At the end of all of this, an infinite series of odd-numbered rooms 1, 3, 5, etc. will be left vacant for the new visitors to move into.</p>
+
+<div class="img">
+	<img src="imgs/1-2_infvisitorssol.png" class="wide" />
+</div>
+
+<p>For each room, there'll always be a unique room with twice the number, so the occupants will always have a place to move into, allowing this process to continue infinitely. And since doubling a natural number always results in an even number, doing this for all rooms fills up the even-numbered rooms only, leaving the odd-numbered rooms empty for our infinite number of guests to move into. $\aleph_0+\aleph_0=\aleph_0$. Ain't that neat?</p>
+
+<p>Unfortunately, you probably won't think it's that neat after having to deal with the logistical nightmare of getting infinitely many occupants to move to the correct rooms, and then shepherding infinitely many guests into their new rooms. Might be one of the reasons why infinite hotels don't exist in real life. </p>
+
+<div class="img">
+	<img src="imgs/1-2_bye.png" />
 </div>
 
 <div class="nav">

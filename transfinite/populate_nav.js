@@ -138,3 +138,9 @@ var contentsList = document.getElementsByClassName("contents");
 for (var i = 0; i < contentsList.length; i++) {
 	contentsList.item(i).appendChild(getContents(pageIndex));
 }
+
+// set box numberings
+var boxNumList = document.getElementsByClassName("box-num");
+for (var i = 0; i < boxNumList.length; i++) {
+	boxNumList.item(i).innerHTML += (" " + pageNum + "-" + (i+1).toString() + ": ");
+}
